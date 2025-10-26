@@ -2,12 +2,7 @@ module top(
     input btnC, btnL, btnU, btnD, btnR,
     input [15:0] sw,
     output [15:0] led
-    );
-        
-//    concat(
-//        .btnL(btnL),
-//        .btnU(btnU)
-//    )
+);
        
     wire [3:0] connect;
     

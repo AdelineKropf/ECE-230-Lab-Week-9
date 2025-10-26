@@ -6,7 +6,7 @@ module demux(
     output [3:0] school,
     output [3:0] rib_shack,
     input enable
-    );
+);
     
     wire [1:0] concat;
     assign concat = {btnR, btnD};
