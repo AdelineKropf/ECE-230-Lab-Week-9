@@ -14,7 +14,8 @@ In this lab you have learned about multiplexers and demultiplexers.
 ## Lab Questions
 
 ### In plain English describe the function and use of a multiplexer.
-    A multiplexer has inputs a selector and an output. The selector is used 
+    A multiplexer has inputs a selector and an output. It has 2^n inputs, one 
+    output, and n selector lines (n is the number of). The selector is used 
     to pick what input is used for the output. A multiplexer can be used for 
     a variety of things like choosing which data to send or as a track 
     selector at a junction in a railroad where multiple tracks can lead into 
@@ -24,8 +25,9 @@ In this lab you have learned about multiplexers and demultiplexers.
     incoming track will be picked to lead into the single track (the output).
 
 ### In plain English describe the function and use of a demultiplexer.
-    A demultiplexer has an input a selector and multiple possible outputs. 
-    The demultiplexor takes an input and using a selector determines to which 
+    A demultiplexer has an input a selector and multiple possible outputs. It 
+    has one input, 2^n outputs and n selector lines (n is the number of). The 
+    demultiplexer takes an input and using a selector determines to which 
     outputs the data should be sent. A demultiplexer can be used for a 
     variety of things like distributing data to multiple places or as a track 
     selector at a junction in a railroad where one track can split off into 
@@ -37,5 +39,9 @@ In this lab you have learned about multiplexers and demultiplexers.
 
 ### What other uses might these circuits have? (Think Shannon’s)
     Multiplexers and demultiplexers can be used to create any logic circuit 
-    using Shannon's Expansion Theorem. 
+    (like AND, OR, XNOR, NOR, NAND, XOR, Adders, etc.) using Shannon's 
+    Expansion Theorem. They are an integral part of communication systems 
+    (like for signal routing), memory functions (like to select and store 
+    data), and computing functions (they allow the implementation of 
+    digital logic).
 
